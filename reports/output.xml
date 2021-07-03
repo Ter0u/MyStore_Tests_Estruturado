@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210703 14:31:11.525" rpa="false" schemaversion="2">
+<suite id="s1" name="MyStore Tests" source="C:\MyStore\tests_case\MyStore_Tests.robot">
+<test id="s1-t1" name="CT1: Cadastrar usuario">
+<kw name="Abrir navegador" library="MyStore_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210703 14:31:11.973" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
+<status status="PASS" starttime="20210703 14:31:11.973" endtime="20210703 14:31:14.893"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210703 14:31:14.893" endtime="20210703 14:31:15.061"/>
+</kw>
+<status status="PASS" starttime="20210703 14:31:11.973" endtime="20210703 14:31:15.061"/>
+</kw>
+<kw name="Dado que estou no site &quot;MyStore&quot;" library="MyStore_Steps">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${logo}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="FAIL" starttime="20210703 14:31:20.073" endtime="20210703 14:31:20.073"/>
+</kw>
+<msg timestamp="20210703 14:31:20.073" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<status status="FAIL" starttime="20210703 14:31:15.061" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<status status="FAIL" starttime="20210703 14:31:15.061" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="Quando clico na opcao de login &quot;sign in&quot;" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="E acesso a pagina de cadastro" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="E preencho a area do email no cadastro" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="E clico no botão de criar a conta" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="E clico em Mrs. para definir o genero" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="E preencho o campo de primeiro nome" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="E preencho o campo do ultimo nome" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.097" endtime="20210703 14:31:20.097"/>
+</kw>
+<kw name="E preencho o campo do email" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.105" endtime="20210703 14:31:20.105"/>
+</kw>
+<kw name="E preencho o campo da senha" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.129" endtime="20210703 14:31:20.129"/>
+</kw>
+<kw name="E seleciono minha data de aniversario" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.145" endtime="20210703 14:31:20.145"/>
+</kw>
+<kw name="E preencho o campo de endereço" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.153" endtime="20210703 14:31:20.153"/>
+</kw>
+<kw name="E preencho o campo da cidade" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.153" endtime="20210703 14:31:20.153"/>
+</kw>
+<kw name="E seleciono o meu estado" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.153" endtime="20210703 14:31:20.153"/>
+</kw>
+<kw name="E preencho o campo de codigo postal" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.153" endtime="20210703 14:31:20.153"/>
+</kw>
+<kw name="E preencho o meu numero de telefone/celular" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.161" endtime="20210703 14:31:20.161"/>
+</kw>
+<kw name="E clico no botao de cadastro" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.161" endtime="20210703 14:31:20.161"/>
+</kw>
+<kw name="Entao sou cadastrado com sucesso" library="MyStore_Steps">
+<status status="NOT RUN" starttime="20210703 14:31:20.161" endtime="20210703 14:31:20.161"/>
+</kw>
+<kw name="Fechar navegador" library="MyStore_resources" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<errors>
+<msg timestamp="20210703 14:31:20.073" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<msg timestamp="20210703 14:31:24.252" level="ERROR">Execution stopped by user.</msg>
+</errors>
+</robot>
